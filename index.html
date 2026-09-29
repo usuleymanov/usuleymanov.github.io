@@ -60,6 +60,24 @@
                 <li>
                     <span class="date">Sep 2026</span>
                     <div class="news-content">
+                        <strong>[Papers]</strong> Two papers accepted to <strong>NeurIPS 2026</strong>: "Evaluating an Evaluation: Membership Inference Attacks as Machine Unlearning Diagnostics" and "GitInject: Real-World Prompt Injection Attacks in AI-Powered CI/CD Pipelines".
+                    </div>
+                </li>
+                <li>
+                    <span class="date">Aug 2026</span>
+                    <div class="news-content">
+                        <strong>[Talk]</strong> Work from my Amazon internship was accepted as a <strong>spotlight</strong> presentation at an internal Amazon machine learning conference.
+                    </div>
+                </li>
+                <li>
+                    <span class="date">Sep 2026</span>
+                    <div class="news-content">
+                        <strong>[Service]</strong> Invited to serve as a reviewer for <strong>ICLR</strong> and <strong>ACM Transactions on AI Security and Privacy</strong>.
+                    </div>
+                </li>
+                <li>
+                    <span class="date">Sep 2026</span>
+                    <div class="news-content">
                         Our paper "Auditing Fairness&ndash;Privacy Trade-offs" was selected for the <strong>2026 Commonwealth Cyber Initiative (CCI) Research Paper Showcase</strong>.
                     </div>
                 </li>
@@ -174,7 +192,25 @@
 
             <div class="publication-item">
                 <div class="pub-title">
-                    <a href="https://github.com/Court-Guard/CourtGuardPMPD" target="_blank" rel="noopener noreferrer">
+                    Evaluating an Evaluation: Membership Inference Attacks as Machine Unlearning Diagnostics
+                </div>
+                <div class="pub-authors"><strong>Umid Suleymanov</strong>, L. Aliyeva, N. Abdullayev, S. Zarbiyeva, M. Kantarcioglu</div>
+                <div class="pub-venue">NeurIPS 2026</div>
+            </div>
+
+            <div class="publication-item">
+                <div class="pub-title">
+                    <a href="https://arxiv.org/abs/2606.09935" target="_blank" rel="noopener noreferrer">
+                        GitInject: Real-World Prompt Injection Attacks in AI-Powered CI/CD Pipelines
+                    </a>
+                </div>
+                <div class="pub-authors">J. Isbarov, <strong>Umid Suleymanov</strong>, I. Shumailov, M. Kantarcioglu</div>
+                <div class="pub-venue">NeurIPS 2026</div>
+            </div>
+
+            <div class="publication-item">
+                <div class="pub-title">
+                    <a href="https://arxiv.org/abs/2602.22557" target="_blank" rel="noopener noreferrer">
                         CourtGuard-PMPD: Zero-Shot Policy Adaptation in LLM Safety without Fine-Tuning using Prompt-Based Modular Policy Database
                     </a>
                 </div>
@@ -263,7 +299,7 @@
                 <ul class="exp-details">
                     <li>Performed large-scale security data analysis using SparkSQL to surface actionable signals across enterprise-scale datasets.</li>
                     <li>Developed agentic LLM architectures to autonomously extract strong, explainable signals from unstructured security text.</li>
-                    <li>Conducted and published applied research on LLM safety and security analytics.</li>
+                    <li>Conducted applied research on LLM safety and security analytics, accepted as a <strong>spotlight</strong> presentation at an internal Amazon machine learning conference.</li>
                 </ul>
             </div>
 
@@ -274,6 +310,7 @@
                 </div>
                 <div class="exp-role">Graduate Research Assistant</div>
                 <ul class="exp-details">
+                    <li>Published two <strong>NeurIPS 2026</strong> papers on trustworthy AI security: MIAU, a diagnostic auditing membership-inference attacks as machine-unlearning evaluations, and GitInject, a study of real-world prompt-injection attacks in AI-powered CI/CD pipelines.</li>
                     <li>Published research on few-shot learning for Network Intrusion Detection, outperforming current models by 3.5%.</li>
                     <li>Developed policy-grounded RAG-based agentic defenses for detecting and mitigating LLM jailbreak attacks, surpassing state-of-the-art detection methods by 4% (CourtGuard-PMPD, accepted to Findings of EMNLP 2026).</li>
                     <li>Audited fairness&ndash;privacy trade-offs of fairness-enhancing algorithms at the subpopulation level, revealing disparate membership-inference risks (accepted at IEEE EuroS&amp;P 2026).</li>
@@ -389,7 +426,7 @@
             <h2>Invited Talks & Academic Service</h2>
             <ul class="service-list">
                 <li>
-                    <span class="service-org">NeurIPS 2026; ICML 2026 (Gold Reviewer); ACM Transactions on Privacy and Security; AICT 2025; AICT 2024</span>
+                    <span class="service-org">NeurIPS 2026; ICLR; ICML 2026 (Gold Reviewer); ACM Transactions on AI Security and Privacy; ACM Transactions on Privacy and Security; AICT 2025; AICT 2024</span>
                     <span class="service-role">Reviewer</span>
                 </li>
                 <li>
@@ -644,14 +681,33 @@
                     <div class="card-content">
                         <div class="tags">
                             <span class="tag">Machine Unlearning</span>
-                            <span class="tag">Metrics</span>
+                            <span class="tag">Membership Inference</span>
                         </div>
-                        <h3>Machine Unlearning Quality Score</h3>
+                        <h3>MIAU: Evaluating an Evaluation</h3>
                         <p>
-                            A systematic metric that quantifies how closely an unlearning method mirrors a fully retrained model without requiring actual retraining.
+                            A diagnostic framework (Membership Inference Attack Unlearning score) that provides a more principled way to interpret MIA-based machine-unlearning evaluations.
                         </p>
                         <div class="card-links">
-                            <span>(Under Review)</span>
+                            <span>NeurIPS 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="https://placehold.co/600x400?text=GitInject" alt="GitInject">
+                    </div>
+                    <div class="card-content">
+                        <div class="tags">
+                            <span class="tag">LLM Security</span>
+                            <span class="tag">Prompt Injection</span>
+                        </div>
+                        <h3>GitInject: Prompt Injection in CI/CD</h3>
+                        <p>
+                            Studies real-world prompt injection attacks against AI-powered CI/CD pipelines, showing how untrusted repository content can influence AI systems operating within software-development workflows.
+                        </p>
+                        <div class="card-links">
+                            <a href="https://arxiv.org/abs/2606.09935" target="_blank">Paper (NeurIPS 2026)</a>
                         </div>
                     </div>
                 </div>
